@@ -1,0 +1,38 @@
+#time{
+    margin-bottom: -1px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.time-container{
+    border:none;
+
+    padding: 12px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border: none;
+
+}
+
+.time-container h2{
+    
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #f00;
+}
+
+#time-active{
+
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #f00;
+    text-align: center;
+}

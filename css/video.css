@@ -1,0 +1,139 @@
+#video{
+    background-color: black;
+    margin-bottom: -2px;
+    
+
+    
+}
+
+
+.video-container{
+
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-top: 60px;
+    text-align: center;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-content{
+
+    padding-top: 36px;
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-content >p{
+    width: 416px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.video-content img{
+    
+    max-width: 844px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.video-container h1{
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    color:#f00;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video-container h2{
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    padding-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video-container h3{
+    padding-top: 36px;
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.video-container p{
+    font-family: "Huiwen-mincho", Arial, sans-serif;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.button-container{
+    padding-top: 36px;
+    
+}
+
+.buttton-li{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    
+}
+
+.buttton-li li{
+    background-color: #f00;
+    padding: 15px 21px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    
+
+}
+
+
+
+.buttton-li li:hover {
+    background-color: #FE6363;
+}
+
+@media (max-width: 880px) {
+    .video-content img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .video-content img {
+        max-width: 60%;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .buttton-li{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 278px) {
+    .video-content img {
+        max-width: 50%;
+
+    }
+}
