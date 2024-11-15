@@ -39,15 +39,15 @@
 
 .banner-img1 {
 
-    background-image: url('/images/banner/1.png');
+    background-image: url('./images/banner/1.png');
 }
 
 .banner-img2 {
-    background-image: url('/images/banner/2.png');
+    background-image: url('./images/banner/2.png');
 }
 
 .banner-img3 {
-    background-image: url('/images/banner/3.png');
+    background-image: url('./images/banner/3.png');
 }
 
 .button-left, .button-right {
