@@ -15,5 +15,17 @@
     }
 
     window.addEventListener('scroll', handleScroll);
-;
+}
+
+function changeMenu() {
+    const navBtnItems = document.querySelectorAll('.nav-btn-item');
+    navBtnItems.forEach(item => {
+        item.classList.toggle('nav-btn-item-hidden'); 
+    });
+}
+
+
+function changeIndex(){
+    
+    window.location.href = "index.html";
 }

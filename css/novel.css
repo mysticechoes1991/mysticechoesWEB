@@ -1,0 +1,105 @@
+.novel-container{
+    padding-top: 32px;
+    background-color: #111;
+    font-family:"Huiwen-mincho", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin-bottom: -2px;
+}
+
+.novel-title{
+    max-width: 100%;
+    max-width: 1440px;
+    padding: 0px 64px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.novel-title h1{
+    font-size:3rem ;
+    color:#C00;
+    text-align: center;
+    line-height: 130%
+}
+
+.novel-title img{
+    padding-top: 24px;
+    width: 100%;    
+}
+
+.novel-title h2{
+    padding-top:12px;
+    font-size:2rem ;
+    color:#C00;
+    text-align: center;
+    line-height: 130%
+}
+
+.novel-title  > p{
+
+    padding-top:12px;
+    font-size:1.2rem ;
+    color:#fff;
+    text-align: left;
+    line-height: 130%
+
+}
+
+.novel-main{
+    margin: 0 auto;
+    padding: 0px 64px ;
+
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.novel-main h2{
+    padding:12px 0px;
+    font-size: 2rem;
+    text-align: center;
+    color: #C00;
+}
+
+.novel-pages{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.novel-main h3{ 
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    padding: 12px 0px;
+    justify-content: center;
+    font-size:1.5rem;
+    border-radius: 12px;
+    background: #333;
+    color:#f00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.novel-main p{
+    max-height: 0;
+    display: none;
+    overflow: visible;
+    transition: max-height 0.5s ease-in-out;
+    padding: 12px 0px;
+    color: #FFF;
+    font-size: 1.2rem;
+    max-height: 2000px;
+    line-height: 170%;
+}
+
+@media (max-width:768px){
+    .novel-title img{
+        padding-top: 0px;
+        width: 100%;    
+    }
+}

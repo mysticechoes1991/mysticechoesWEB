@@ -1,12 +1,12 @@
 #footer{
     
+     
     background-color: #111;
 }
 
 .footer-container{
     max-width: 1440px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding:60px 64px 24px 64px;
     width: 100%;
     margin: 0 auto;
     background-color: #111;
@@ -48,9 +48,25 @@
     font-size: 1rem;
     font-family: "Huiwen-mincho", Arial, sans-serif;
     font-weight: 400;
+    cursor: pointer;
 }
 
-.footer-infor{
+a{
+
+    text-decoration: none;
+}
+
+.footer-container div:nth-of-type(-n+2) li:hover{
+
+    background-color: #FE6363;
+}
+
+.footer-container div:nth-of-type(-n+2) li:active{
+
+    background-color: #700;
+}
+
+.footer-info{
     text-align: left;
     padding: 6px 12px;
     color: #ffffff;
@@ -64,7 +80,7 @@
 }
 
 .footer-logo img{
-
+    cursor: pointer;
     max-width: 120px;
     max-height: 120px;
     object-fit: cover;
@@ -101,7 +117,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     .footer-container >div:nth-of-type(4){
         order:-1;

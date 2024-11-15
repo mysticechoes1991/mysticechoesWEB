@@ -40,11 +40,14 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.text())
         .then(data => {
             document.getElementById('video').innerHTML = data;
-            console.log('video.html');
+            const videoScript = document.createElement('script');
+            videoScript.src = './js/video.js';
+            videoScript.onload = function() {
+                console.log('video.js');
+            };
+            document.body.appendChild(videoScript);
         })
-        .catch(error => {
-            console.error('Error loading video component:', error);
-        });
+
 
     fetch('./components/time.html')
         .then(response => response.text())
