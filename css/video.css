@@ -97,7 +97,9 @@
     font-size: 1rem;
     display: flex;
     justify-content: center;
+    padding: 0px 24px;
     gap: 45px;
+    flex-wrap: wrap;
     
 }
 
@@ -143,6 +145,9 @@
         padding: 36px 32px 0px 32px;    
 
     }
+
+
+
 /* 
     .video-iframe{
  
@@ -155,12 +160,12 @@
 
 
 
-@media (max-width: 378px) {
+@media (max-width: 430px) {
 
 
     .video-content{
 
-        padding: 36px 32px 0px 32px;    
+        padding: 36px 32px 0px 32px;
 
     }
 
@@ -171,4 +176,24 @@
     
     }
 
+    .button-container{
+        padding-top: 12px;
+    }
+
+    .buttton-li{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        
+    }
+
+
+    .buttton-li li{
+        width: 80%;      
+        padding: 10px;  
+        text-align: center;
+        border-radius: 10px;
+    }
 } 
