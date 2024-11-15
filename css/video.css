@@ -114,15 +114,18 @@
     background-color: #700;
 }
 
-@media (max-width: 880px) {
-    .video-content img {
-        max-width: 80%;
+@media (max-width: 920px) {
+
+
+    .video-content iframe{
+        padding:0px 40px;
+        object-fit: cover;
     }
 }
 
 @media (max-width: 650px) {
-    .video-content img {
-        max-width: 60%;
+    .video-content iframe{
+    
     }
 } 
 
@@ -136,8 +139,5 @@
 
 
 @media (max-width: 278px) {
-    .video-content img {
-        max-width: 50%;
-
-    }
+  
 }
